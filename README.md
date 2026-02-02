@@ -19,11 +19,15 @@
 
   正確率：59.68% (151/253)
 
-* [YOLOv8，配合線上七段顯示器資料集](https://colab.research.google.com/drive/1E1old6SiFOBw85dFM9f3jlxy5RWQqtQP?usp=sharing "TestM-1.colab")
+* [YOLOv8](https://colab.research.google.com/drive/1E1old6SiFOBw85dFM9f3jlxy5RWQqtQP?usp=sharing "TestM-1.colab")
 
+  模型位置：YOLOv8/best.pt
+  
   推估正確率：70~83%
 
   
-* [YOLOv8-obb，配合專案資料集](https://colab.research.google.com/drive/1gsB5WnxcvgGL1kxHi_BJ1sxXVwm9D4SC?usp=sharing "TestM-obb.colab")
+* [YOLOv8-obb](https://colab.research.google.com/drive/1gsB5WnxcvgGL1kxHi_BJ1sxXVwm9D4SC?usp=sharing "TestM-obb.colab")
+
+  模型位置：best.pt
 
   推估正確率： 約70%~80%
