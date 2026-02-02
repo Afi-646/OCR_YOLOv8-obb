@@ -1,17 +1,29 @@
 # OCR_YOLOv8-obb
-使用YOLOv8-Oriented Bounding Box偵測溫度計數值
-
-### 內容物說明
-* best.pt
-  *   -- 最新模型
-* data.yaml
-  * -- label id與標註範圍
-* task_07
-  * -- 內含200張測試圖片
-* README.md
-
+使用YOLOv8-Oriented bounding boxes偵測溫度計數值
 
 ### 需求
 * 讀取圖片中溫度計的數值，只擷取數字部分（不含攝氏符號，如：91.2）
-*
-*
+* 異常：低於設定的區間、讀不到數值，傳送flag到web端，呼叫線上推理服務api
+
+
+### 使用過的方案
+* [溫度計圖片辨識器](https://cjian2025-rc-temature1025.hf.space "溫度計圖片辨識器")
+  
+  使用promt：請擷取溫度計顯示的溫度。請僅輸出一個數字（例如 91.9），不得包含任何說明文字或符號。
+  
+  正確率：84% (213/253)
+
+* docTR (使用ROI過的圖片)
+
+  辨識率：73.12% (185/253)
+
+  正確率：59.68% (151/253)
+
+* [YOLOv8，配合線上七段顯示器資料集](https://colab.research.google.com/drive/1E1old6SiFOBw85dFM9f3jlxy5RWQqtQP?usp=sharing "TestM-1.colab")
+
+  推估正確率：70~83%
+
+  
+* [YOLOv8-obb，配合專案資料集](https://colab.research.google.com/drive/1gsB5WnxcvgGL1kxHi_BJ1sxXVwm9D4SC?usp=sharing "TestM-obb.colab")
+
+  推估正確率： 約70%~80%
