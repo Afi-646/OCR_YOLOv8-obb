@@ -35,5 +35,5 @@
   推估正確率： 約70%~80%
 
 *  [線上偵測Roboflow](https://universe.roboflow.com/hstech/ocrscale "ocrscale")
-
-  需要註冊、有額度限制
+  
+   要註冊、有額度限制
