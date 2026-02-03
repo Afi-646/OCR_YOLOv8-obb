@@ -33,3 +33,7 @@
   模型位置：YOLOv8-obb/best.pt
 
   推估正確率： 約70%~80%
+
+*  [線上偵測Roboflow](https://universe.roboflow.com/hstech/ocrscale "ocrscale")
+
+  需要註冊、有額度限制
