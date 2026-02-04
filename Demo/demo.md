@@ -40,7 +40,7 @@
 
 ##  自訓YOLOv8模型偵測+搭配Roboflow資料集
 使用Ocrscale辨識同樣的資料集，移除干擾資料後重新訓練(沒有混合自有資料)
-<img width="1006" height="433" alt="image" src="https://github.com/user-attachments/assets/9df1db06-77c4-48c7-b7b5-b977d8cf6f73" />
+<img width="536" height="359" alt="image" src="https://github.com/user-attachments/assets/4cf10523-abb6-4143-b8e2-818303b83f32" />
 ![val_batch1_labels](https://github.com/user-attachments/assets/f21d13d7-ddf0-48ff-805b-7d241ecbb0d0)
 
 使用方法：
